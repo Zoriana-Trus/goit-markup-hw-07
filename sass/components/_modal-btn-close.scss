@@ -22,8 +22,8 @@
             cursor: pointer;
             color: var(--accent-color);
         }
-    }
     
-    .modal-btn__icon{
+    &__icon{
       fill: currentColor;
     }
+}    

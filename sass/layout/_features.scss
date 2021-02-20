@@ -1,17 +1,16 @@
-.features__list {
+.features-list {
     display: flex;
-}
    
-.features__item{
+    &__item{
     width: 270px;
 
-    &:not(:last-child) {
+        &:not(:last-child) {
         margin-right: 30px;
+        }
     }
-}
    
    
-.features__icon-wrapper{
+    &__icon-wrapper{
     display: flex;
     width: 270px;
     height: 120px;
@@ -24,7 +23,7 @@
     border-radius: 4px;
    }
    
-.features__title {
+    &__title {
     margin-bottom: 10px;
    
     color: var(--title-color);
@@ -35,10 +34,11 @@
     text-transform: uppercase;
    }
    
-.features__text {
+    &__text {
     margin-bottom: 0;
     font-size: var(--main-font-size);
     line-height: 1.71;
     letter-spacing: var(--main-letter-spacing);
-   } 
+    } 
+}
    

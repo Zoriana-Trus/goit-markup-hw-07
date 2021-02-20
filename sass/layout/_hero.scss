@@ -17,9 +17,9 @@
      url('../images/hero-bg-image/Img-1.jpg'); 
    
     border: 1px solid #000000;
-   }
    
-.hero__title {
+   
+    &__title {
     max-width: 700px;
     margin-bottom: 30px;
     margin-right: auto;
@@ -32,9 +32,10 @@
     letter-spacing: 0.06em;
     text-transform: uppercase;
     text-align: center;
-}
+    }
 
-.hero__button {
+    &__button {
     padding: 10px 32px;
+    }
 }
    

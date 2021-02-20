@@ -1,20 +1,20 @@
 .site-nav {
     display: flex;
     align-items: center;
-   }
    
-.site-nav__list {
+    &__list {
     display: flex;
+    align-items: center;
    }
    
-.site-nav__item {
+    &__list-item {
 
         &:not(:last-child){
         margin-right: 50px;  
         }
    } 
    
-.site-nav__link {
+    &__list-link {
     position: relative;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -34,7 +34,7 @@
         }
    }
 
-   .site-nav__link--active {
+    &__list-link--active {
     color: var(--accent-color);
 
         &::after{
@@ -50,6 +50,7 @@
             border-radius: 2px;
         }
    }
+}
    
 
    

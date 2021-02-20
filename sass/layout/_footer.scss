@@ -2,12 +2,14 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: var(--dark-bg-color);
-   }
 
-.footer__container {
-    display: flex;
-    align-items:  baseline;
+    &__container {
+        display: flex;
+        align-items:  baseline;
+    }
+    
 }
+
 
 
 
